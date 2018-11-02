@@ -1,0 +1,9 @@
+{
+  "runtimeVersion": "V8",
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "enabledAdvancedServices": []
+  },
+  "oauthScopes": [],
+  "exceptionLogging": "STACKDRIVER"
+}

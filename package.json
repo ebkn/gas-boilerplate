@@ -1,0 +1,32 @@
+{
+  "name": "gas-boilerplate",
+  "version": "0.0.1",
+  "description": "boilerplate for Google Apps Script V8 runtime and TypeScript",
+  "main": "src/main.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint './src/**/*.ts'",
+    "lint:fix": "eslint --fix './src/**/*.ts'",
+    "prebuild": "npm run typecheck && npm run lint",
+    "build": "tsc",
+    "deploy": "npm run build && clasp push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ebkn/gas-boilerplate.git"
+  },
+  "author": "ebkn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebkn/gas-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ebkn/gas-boilerplate#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^1.0.11",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3"
+  }
+}
