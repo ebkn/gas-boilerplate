@@ -21,7 +21,7 @@ Google App Script boilerplate
 $ npm install
 ```
 
-2. create GoogleAppScript project and create .clasp.json
+2. create GoogleAppsScript project and create .clasp.json
 ```sh
 $ cp .clasp.sample.json .clasp.json
 # then, edit scriptID in .clasp.json
