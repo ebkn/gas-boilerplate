@@ -1,14 +1,14 @@
-### Google Apps Script boilerplate
+### gas boilerplate
 
 [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
 
-Google App Script boilerplate
+Boilerplate for GoogleAppsScript.
 
 ### Features
 - clasp
   - https://github.com/google/clasp
-- Google Apps Script V8 runtime
-  - (https://developers.google.com/apps-script/guides/v8-runtime)
+- GoogleAppsScript V8 runtime
+  - https://developers.google.com/apps-script/guides/v8-runtime
 - TypeScript
   - `v3.8.3`
 - eslint
