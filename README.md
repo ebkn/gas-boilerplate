@@ -29,5 +29,6 @@ $ cp .clasp.sample.json .clasp.json
 
 3. deploy
 ```sh
+$ clasp login # only the first time
 $ npm run deploy
 ```
